@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+.w3-jumbo, body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px;
+}
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/img/covers/meport.jpg');
+  min-height: 100%;
+}
+
+.intro {
+  font-weight: 700;
+  font-size: 4em;
+}
+
+@media (max-width: 414px) {
+
+  .intro {
+      font-size: 2.8em;
+  }
+
+}

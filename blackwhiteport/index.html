@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+
+<head>
+    <title>Ryan | Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/covers/rslogo.png" />
+</head>
+
+
+<body>
+
+    <a href="/index.html"><span class="w3-padding w3-top w3-xxlarge"
+            style="width:auto;left:0;z-index:3;position: absolute;"><img src="/img/covers/rslogo.png"
+                style="width:40px;"></span></a>
+
+    <!-- Sidebar with image -->
+    <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+        <div class="bgimg"></div>
+    </nav>
+
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge"
+        style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+            style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">
+                Home</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">
+                Portfolio</a>
+            <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">
+                About</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">
+                Contact</a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="w3-main w3-padding-large" style="margin-left:40%">
+
+        <!-- Menu icon to open sidebar -->
+        <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;"
+            onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+        <!-- Header -->
+        <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+            <h1 class="intro">Hi, I'm Ryan</h1>
+            <p>Web Developer / Designer</p>
+            <img src="/img/covers/meport.jpg" class="w3-image w3-hide-large w3-hide-small w3-round"
+                style="display:block;width:60%;margin:auto;">
+            <img src="/img/covers/meport.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000"
+                height="1333">
+            <a href="/CV_RYAN-STORRIER.pdf" target="_blank"><button
+                    class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+                    <i class="fa fa-download"></i> Download Resume
+                </button></a>
+        </header>
+
+        <!-- Portfolio Section -->
+        <div class="w3-padding-32 w3-content" id="portfolio">
+            <h2 class="w3-text-grey">My Portfolio</h2>
+            <hr class="w3-opacity">
+
+            <!-- Grid for photos -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                    <a href="/projects/savetheelephants.html"><img src="/img/project-imgs/SaveTheElephants/elephants.png"
+                            class="w3-hover-opacity" style="width:100%"></a>
+                    <a href="/projects/dali.html"><img src="/img/project-imgs/Dali/dali.png" class="w3-hover-opacity"
+                                style="width:100%"></a>
+                    <a href="/projects/pulp.html"><img src="/img/project-imgs/PulpFictionLanding/pulp.png"
+                            class="w3-hover-opacity" style="width:100%"></a>
+                    <a href="/projects/checkoutui.html"><img src="/img/project-imgs/CheckoutUI/checkoutuichallenge.png"
+                            class="w3-hover-opacity" style="width:100%"></a>
+
+                </div>
+
+                <div class="w3-half">
+                    <a href="/projects/pizza.html"><img src="/img/project-imgs/Pizza/pizza.png"
+                            class="w3-hover-opacity" style="width:100%"></a>
+                    <a href="/projects/todolist.html"><img src="/img/project-imgs/Todo/todo.png"
+                            class="w3-hover-opacity" style="width:100%"></a>
+                    <a href="/projects/rgbcolorgame.html"><img src="/img/project-imgs/RGBColorGame/rgbgame.png"
+                            class="w3-hover-opacity" style="width:100%"></a>
+                    <a href="/projects/poshbird.html"><img src="/img/project-imgs/PoshBird/PoshBirdcaps.png"
+                            class="w3-hover-opacity" style="width:100%"></a>
+                </div>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+            <h2>About</h2>
+            <hr class="w3-opacity">
+            <p>I'm a 25 year old Web Developer and Graphic Design
+                enthusiust currently based in Angus, Scotland.<br><br>
+
+                I have studied Computing and Business while working part-time over the years, but at
+                the end of 2017 I decided that I wanted to travel Australia for
+                two years.<br><br>
+
+                Since returning home my days are spent researching, designing, prototyping, & coding. I love this industry and can't wait to keep progressing in it for years to come.
+            </p>
+            <h3 class="w3-padding-16">My Skills</h3>
+            <p class="w3-wide">HTML & CSS</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:87%">87%</div>
+            </div>
+            <p class="w3-wide">Photoshop & Illustrator</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+            </div>
+            <p class="w3-wide">JavaScript</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:75%">75%</div>
+            </div><br>
+
+
+            <a href="/CV_RYAN-STORRIER.pdf" target="_blank"><button
+                    class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+                    <i class="fa fa-download"></i> Download Resume
+                </button></a>
+
+
+            <!-- End About Section -->
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+            <h2>Contact Me</h2>
+            <hr class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
+                    Angus, UK</p>
+                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>
+                    Phone: </p>
+                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
+                    Email: ryan@imstoz.com</p>
+            </div>
+
+            <!-- Logo -->
+            <div class="w3-container w3-center">
+                <img src="/img/covers/rslogo.png" class="w3-image" style="width:30%;margin:32px 0">
+            </div>
+
+            <p>Lets get in touch. Send me a message:</p>
+            <form action="mailto:ryan@imstoz.com" method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name">
+                </p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required
+                        name="Email"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required
+                        name="Subject"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required
+                        name="Message"></p>
+                <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+            <!-- End Contact Section -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+            <a href="https://www.linkedin.com/in/ryan-storrier-8026101b0/"><i
+                    class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="http://github.com/imstoz"><i class="fa fa-github w3-hover-opacity"></i></a>
+            <a href="http://dribbble.com/ryanui"><i class="fa fa-dribbble w3-hover-opacity"></i></a>
+            <p class="w3-medium">Copyright 2020. Ryan Storrier</a></p>
+            <!-- End footer -->
+        </footer>
+
+        <!-- END PAGE CONTENT -->
+    </div>
+    <script src="/App.js"></script>
+</body>
+
+</html>
